@@ -1,0 +1,36 @@
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[12pt,a4paper]{agharascv}\geometry{left=2cm,right=2cm,top=1cm,bottom=1cm}
+\setmainfont{Lato}
+
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Blue}
+\colorlet{accent}{NavyBlue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\begin{document}
+\name{Ayoub GHRISS}
+%\tagline{Application : Machine Learning Engineer}
+\personalinfo{
+  \email{ayoub.ghriss@polytechnique.org}
+  \phone{+33(0)663-47-5341}
+  \linkedin{linkedin.com/in/ayoubghriss}
+  \flag{FR, MA}
+}
+
+\makecvheader
+\medskip
+\input{education}
+\medskip
+
+\input{work}
+\medskip
+
+\input{projects}
+\medskip
+\input{skills}
+
+\end{document}
